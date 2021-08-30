@@ -1,0 +1,7 @@
+com\orangeHRM\qa\base\TestBase.class
+com\orangeHRM\qa\pages\DashboardPage.class
+com\orangeHRM\qa\utils\WebEventListener.class
+com\orangeHRM\qa\ExtentReport\ExtentReporter.class
+com\orangeHRM\qa\pages\ForgetPasswordPage.class
+com\orangeHRM\qa\utils\TestUtil.class
+com\orangeHRM\qa\pages\LoginPage.class

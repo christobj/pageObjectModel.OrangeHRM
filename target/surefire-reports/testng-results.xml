@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57889" started-at="2021-08-30T22:52:33 IST" finished-at="2021-08-30T22:53:31 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57889" started-at="2021-08-30T22:52:33 IST" finished-at="2021-08-30T22:53:31 IST">
+      <class name="com.orangeHRM.qa.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="setUp" is-config="true" duration-ms="5514" started-at="2021-08-30T22:52:33 IST" finished-at="2021-08-30T22:52:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgetPasswordTest()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="forgetPasswordTest" duration-ms="956" started-at="2021-08-30T22:52:39 IST" finished-at="2021-08-30T22:52:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="tearDown" is-config="true" duration-ms="68" started-at="2021-08-30T22:52:40 IST" finished-at="2021-08-30T22:52:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="setUp" is-config="true" duration-ms="7373" started-at="2021-08-30T22:52:40 IST" finished-at="2021-08-30T22:52:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="invalidLoginTest" duration-ms="1340" started-at="2021-08-30T22:52:48 IST" data-provider="invalidLoginDataProvider" finished-at="2021-08-30T22:52:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[567.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="tearDown" is-config="true" duration-ms="61" started-at="2021-08-30T22:52:49 IST" finished-at="2021-08-30T22:52:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="setUp" is-config="true" duration-ms="4637" started-at="2021-08-30T22:52:49 IST" finished-at="2021-08-30T22:52:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="invalidLoginTest" duration-ms="1614" started-at="2021-08-30T22:52:54 IST" data-provider="invalidLoginDataProvider" finished-at="2021-08-30T22:52:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="tearDown" is-config="true" duration-ms="51" started-at="2021-08-30T22:52:55 IST" finished-at="2021-08-30T22:52:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="setUp" is-config="true" duration-ms="5961" started-at="2021-08-30T22:52:55 IST" finished-at="2021-08-30T22:53:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidUsernameTest(java.lang.String)[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="invalidUsernameTest" duration-ms="293" started-at="2021-08-30T22:53:01 IST" data-provider="invalidUsernameDataProvider" finished-at="2021-08-30T22:53:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[567.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="tearDown" is-config="true" duration-ms="65" started-at="2021-08-30T22:53:02 IST" finished-at="2021-08-30T22:53:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="setUp" is-config="true" duration-ms="9479" started-at="2021-08-30T22:53:02 IST" finished-at="2021-08-30T22:53:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidUsernameTest(java.lang.String)[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="invalidUsernameTest" duration-ms="468" started-at="2021-08-30T22:53:11 IST" data-provider="invalidUsernameDataProvider" finished-at="2021-08-30T22:53:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[789.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="tearDown" is-config="true" duration-ms="38" started-at="2021-08-30T22:53:12 IST" finished-at="2021-08-30T22:53:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="setUp" is-config="true" duration-ms="6688" started-at="2021-08-30T22:53:12 IST" finished-at="2021-08-30T22:53:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="loginPageTitleTest" duration-ms="8" started-at="2021-08-30T22:53:18 IST" finished-at="2021-08-30T22:53:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="tearDown" is-config="true" duration-ms="53" started-at="2021-08-30T22:53:18 IST" finished-at="2021-08-30T22:53:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="setUp" is-config="true" duration-ms="6263" started-at="2021-08-30T22:53:19 IST" finished-at="2021-08-30T22:53:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="loginTest" duration-ms="6289" started-at="2021-08-30T22:53:25 IST" data-provider="LoginDataProvider" finished-at="2021-08-30T22:53:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.test.LoginPageTest@1e965684]" name="tearDown" is-config="true" duration-ms="51" started-at="2021-08-30T22:53:31 IST" finished-at="2021-08-30T22:53:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.qa.test.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
